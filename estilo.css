@@ -1,11 +1,13 @@
+
 body {
-  font-family: Arial, sans-serif;
- background-image: url('fondo.png'); /* Cambio de color de fondo */
-  background-repeat: no-repeat;
-  background-size: cover; /* Para cubrir todo el fondo */
-  
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('fondo.png'); /* Imagen de fondo */
+  background-size: cover; /* Extender la imagen de fondo para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+  background-attachment: fixed; /* Fijar la imagen de fondo */
 }
 .container {
+  border: 2px solid orange;
   max-width: 500px; /* Aumento del ancho máximo */
   margin: 0 auto;
   padding: 20px;
@@ -24,10 +26,13 @@ img {
 .description {
   margin-top: 20px;
   text-align: justify; /* Justificar el texto */
+  background: rgb(192,192,192) ;
+  padding: 1px;
+  border-radius: 8px; /* Añadido borde redondeado */
 }
 .codigo {
   margin-top: 20px;
-  background-color: #eabfbf; /* Cambio de color de fondo */
+  background-color: rgb(255,192,192) ; /* Cambio de color de fondo */
   padding: 15px;
   border-radius: 8px; /* Añadido borde redondeado */
 }
@@ -43,13 +48,28 @@ color: blue;
 h4 {
   text-align: center; /* Centrar el texto */
 }
-.social-links {
+.contact{
+  margin-top: 20px;
+  text-align: center; /* Centrar los elementos */
+}
+.contact a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.contact a img {
+  width: 30px; /* Ajusta el ancho según tu preferencia */
+  height: 30px; /* Ajusta la altura según tu preferencia */
+  margin-bottom: 5px; /* Espacio entre el icono y el texto */
+}
+.social-links{
   margin-top: 20px;
   text-align: center; /* Centrar los elementos */
 }
 .social-links a {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 50px;
   color: #333;
   text-decoration: none;
 }
