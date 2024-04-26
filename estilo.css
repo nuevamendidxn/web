@@ -15,7 +15,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Añadida sombra */
 }
 img {
-  max-width: 120%;
+  max-width: 100%;
   height: auto;
   display: block; /* Añadido para centrar las imágenes */
   margin: 0 auto 20px; /* Añadido margen inferior */
