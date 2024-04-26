@@ -48,7 +48,7 @@ h4 {
   text-align: center; /* Centrar el texto */
 }
 .contact{
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center; /* Centrar los elementos */
 }
 .contact a {
@@ -58,8 +58,8 @@ h4 {
   text-decoration: none;
 }
 .contact a img {
-  width: 30px; /* Ajusta el ancho según tu preferencia */
-  height: 30px; /* Ajusta la altura según tu preferencia */
+  width: 40px; /* Ajusta el ancho según tu preferencia */
+  height: 40px; /* Ajusta la altura según tu preferencia */
   margin-bottom: 5px; /* Espacio entre el icono y el texto */
 }
 .social-links{
