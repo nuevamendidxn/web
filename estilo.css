@@ -58,8 +58,8 @@ h4 {
   text-decoration: none;
 }
 .contact a img {
-  width: 40px; /* Ajusta el ancho según tu preferencia */
-  height: 40px; /* Ajusta la altura según tu preferencia */
+  width: 50px; /* Ajusta el ancho según tu preferencia */
+  height: 50px; /* Ajusta la altura según tu preferencia */
   margin-bottom: 5px; /* Espacio entre el icono y el texto */
 }
 .social-links{
